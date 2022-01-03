@@ -1,24 +1,11 @@
-# README
+Things want to cover:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Introdução a Ruby on Rails para iniciantes.
 
-Things you may want to cover:
+* Introdução ao TDD com Ruby on Rails e Rspec.
 
-* Ruby version
+* Testes de controller no Rspec
 
-* System dependencies
+* Trabalhando com Capybara no Rails
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Testando Formularios usando Capybara
