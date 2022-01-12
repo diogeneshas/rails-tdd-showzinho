@@ -28,5 +28,11 @@ RSpec.describe Post, type: :model do
       post = Post.new(title: 'Titulo')
       expect(post).to_not be_valid
     end
+
+    it 'e retorna nao pode ser em branco' do
+      post = Post.new(content: nil)
+      post.valid?
+      expect(post.errors[:content]).to include("can't be blank")
+    end
   end
 end
